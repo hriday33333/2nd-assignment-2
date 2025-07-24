@@ -1,0 +1,58 @@
+
+
+
+
+/* ...........shere style................ */
+.bg-color{
+    visibility: hidden;
+background: rgb(30, 30, 30);
+}
+.display-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.display-grid{
+
+}
+.containers{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* ...........nav bar....................... */
+.nav-items{
+    display: flex;
+    list-style: none;
+}
+.nav-items li a{
+text-decoration: none;
+margin-right: 48px;
+/* color: black; */
+
+}
+.gray-color{
+    color: rgb(137, 135, 161);
+    font-weight: 400;
+    font-size: 1rem;
+}
+.black-color{
+    color: rgb(37, 36, 50);
+    font-weight:700;
+    font-size: 1rem;
+}
+.light-black{
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+  .hide{
+    display: none;
+  }
+}
