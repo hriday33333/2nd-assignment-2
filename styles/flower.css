@@ -45,14 +45,47 @@ margin-right: 48px;
     font-weight: 400;
     font-size: 1rem;
 }
-
-
+ /* <!-- .....................banner section............... --> */
+.banner{
+    display: flex;
+    margin-top: 120px;
+}
+.banner-laft{
+    align-content: end;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 4rem;
+}
+.font-color{
+    color: rgb(233, 90, 8);
+}
+.banner-description{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.banner-right {
+     width: 100%;
+     
+}
 
 
 
 
 @media screen and (max-width: 576px) {
-  .hide{
-    display: none;
-  }
+    .hide{
+        display: none;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        margin: auto;
+        width: auto;
+        margin-top: 0;
+    }
+    .banner-right img{
+        width: 300px;
+        margin: auto;
+    }
+   
 }
