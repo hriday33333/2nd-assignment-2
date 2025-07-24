@@ -70,7 +70,23 @@ margin-right: 48px;
      
 }
 
-
+ /* ..................plants description.......... */
+.plants-hub{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 100px;
+    /* border: 1px solid red; */
+}
+.plants-descripton{
+    text-align: center;
+}
+.plants-title{
+    font-weight: bold;
+    font-size: 3rem;
+}
+.our{
+    color: rgb(233, 90, 8);
+}
 
 
 @media screen and (max-width: 576px) {
