@@ -1,7 +1,4 @@
 
-
-
-
 /* ...........shere style................ */
 .bg-color{
     visibility: hidden;
@@ -88,6 +85,38 @@ margin-right: 48px;
     color: rgb(233, 90, 8);
 }
 
+/* ....................plants items....................... */
+.plants-items-flex{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px 20px;
+}
+.plants-items-description{
+    width: 270px;
+    text-align: center;
+}
+.plants-items-description img{
+    width: 100%;
+}
+.btn-primary{
+    width: 100%;
+    height: 50px;
+    font-weight: 600;
+    font-size: 1rem;
+    background: rgb(233, 90, 8);
+    border: none;
+}
+.lily{
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+.dolar{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+
+
 
 @media screen and (max-width: 576px) {
     .hide{
@@ -106,5 +135,25 @@ margin-right: 48px;
     .banner-title{
        margin-left: 20px;
     }
-   
+    .plants-items-flex{
+        grid-template-columns: repeat(2, 1fr);
+        margin:0 auto;
+        
+        
+        
+    }
+    .plants-items-description .picture{
+        width: 200px;
+        margin:  0 auto;
+        
+       
+
+    }
+    
+    .btn-primary{
+        width: 200px;
+        margin: 0 auto;
+        
+    }
+    
 }
