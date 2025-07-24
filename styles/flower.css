@@ -183,6 +183,7 @@ height: 590px;
     }
     .challenge-part{
         flex-direction: column;
+        margin-top: 70px;
     }
     .challenge-right img{
         max-width: 100%;
