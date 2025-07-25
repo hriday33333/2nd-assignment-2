@@ -72,6 +72,7 @@ margin-right: 48px;
     max-width: 1140px;
     margin: 0 auto;
     margin-top: 100px;
+    
     /* border: 1px solid red; */
 }
 .plants-descripton{
@@ -119,7 +120,7 @@ margin-right: 48px;
     border: none;
 
 }
- /* ................challenge part.............. */
+ /* ................challenge part 1.............. */
 .challenge-part{
 display: flex;
 margin-top:200px ;
@@ -151,6 +152,10 @@ height: 590px;
     position: relative;
     top: -650px;
     right: 200px;
+}
+/* .....................deteles................ */
+.deteles{
+    margin-top: 100px;
 }
 
 
@@ -188,7 +193,10 @@ height: 590px;
     .challenge-right img{
         max-width: 100%;
     }
-    
+      .deteles{
+    position: relative;
+    top: 550px;
+}
    
     
 }
