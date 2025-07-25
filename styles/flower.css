@@ -255,7 +255,26 @@ text-align: center;
     border: none;
    
 }
-
+/* ...................footer section............ */
+.footer-item{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-section{
+    margin-top: 100px;
+    height: 248px;
+    /* border: 1px solid; */
+}
+.home ul li{
+list-style: none;
+margin-bottom: 20px;
+}
+.home ul li a{
+text-decoration: none;
+}
+.color{
+    color: rgba(0, 0, 0, 0.5);
+}
 
 
 
@@ -317,5 +336,21 @@ width: 366px;
     width: 100px;
     height: 40px;
 }
-    
+.footer-section{
+    position: relative;
+    top: 850px;
+}
+.footer-item{
+flex-direction: column;
+}
+.logo-style {
+    position: relative;
+    left: 35px;
+    top: -20px;
+}
+.social-media{
+    position: relative;
+    left: 35px;
+    top: 20px;
+}
 }
