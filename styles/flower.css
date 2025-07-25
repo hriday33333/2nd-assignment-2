@@ -1,4 +1,8 @@
 
+*{
+     font-family: "Noto Serif", serif;
+}
+
 /* ...........shere style................ */
 .bg-color{
     visibility: hidden;
