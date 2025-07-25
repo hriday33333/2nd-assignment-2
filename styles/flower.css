@@ -70,6 +70,10 @@ margin-right: 48px;
      width: 100%;
      
 }
+.banner-right .img{
+    position: relative;
+    top: 45px;
+}
 
  /* ..................plants description.......... */
 .plants-hub{
