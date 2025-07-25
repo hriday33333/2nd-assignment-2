@@ -345,12 +345,12 @@ flex-direction: column;
 }
 .logo-style {
     position: relative;
-    left: 35px;
+    left: 5px;
     top: -20px;
 }
 .social-media{
     position: relative;
-    left: 35px;
+    left: 5px;
     top: 20px;
 }
 }
