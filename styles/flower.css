@@ -308,7 +308,7 @@ text-decoration: none;
         margin: auto;
     }
     .banner-title{
-       margin-left: 20px;
+       margin-left: 10px;
     }
     .plants-items-flex{
         grid-template-columns: repeat(2, 1fr);
